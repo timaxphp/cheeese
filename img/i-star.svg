@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Star off</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="99.8709677 12.1153846 95.0928425 14.6112911 96.0053832 9.32487632 92.1397986 5.58101658 97.4819051 4.80973906 99.8709677 0 102.26003 4.80973906 107.602137 5.58101658 103.736552 9.32487632 104.649093 14.6112911"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.4623382" height="14.6112911" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-255.000000, -304.000000)" stroke="#000000" stroke-width="2">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Rating" transform="translate(163.000000, 164.000000)">
+                    <use id="Star-off" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

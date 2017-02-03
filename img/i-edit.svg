@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_border_color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-138.000000, -448.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(138.000000, 307.000000)">
+                    <g id="ic_border_color" transform="translate(0.000000, 1.000000)">
+                        <g id="Icon-24px">
+                            <path d="M9.61458333,4.48 L7.58333333,2.38 L2.16666667,7.98 L2.16666667,10.08 L4.19791667,10.08 L9.61458333,4.48 L9.61458333,4.48 Z M11.2179167,2.8224 C11.4291667,2.604 11.4291667,2.2512 11.2179167,2.0328 L9.95041667,0.7224 C9.73916667,0.504 9.39791667,0.504 9.18666667,0.7224 L8.125,1.82 L10.15625,3.92 L11.2179167,2.8224 L11.2179167,2.8224 Z" id="Shape" fill="#000000"></path>
+                            <polygon id="Shape" points="0 0.56 13 0.56 13 14 0 14"></polygon>
+                            <polygon id="Shape" fill="#000000" points="0 11.76 13 11.76 13 14 0 14"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>7A223D34-9BF2-4569-ADDB-C1DC179FCAD5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-52.0947177%" y1="-29.5081967%" x2="182.331512%" y2="138.934426%" id="linearGradient-1">
+            <stop stop-color="#EDEDED" offset="0%"></stop>
+            <stop stop-color="#D6D6D6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11.-Log-in" transform="translate(-579.000000, -564.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-5" transform="translate(579.000000, 564.000000)">
+                <path d="M-5.68434189e-14,9.78966346 L-5.68434189e-14,6.58774038 L2.75841346,6.58774038 L2.75841346,4.22956731 C2.75841346,2.88821445 3.13340971,1.84796043 3.88341346,1.10877404 C4.63341721,0.36958765 5.6322053,0 6.87980769,0 C7.93990915,0 8.76201631,0.0432687981 9.34615385,0.129807692 L9.34615385,2.98557692 L7.64783654,2.98557692 C7.02764113,2.98557692 6.60937608,3.11538332 6.39302885,3.375 C6.17668161,3.63461668 6.06850962,4.02403587 6.06850962,4.54326923 L6.06850962,6.58774038 L9.23798077,6.58774038 L8.81610577,9.78966346 L6.06850962,9.78966346 L6.06850962,18 L2.75841346,18 L2.75841346,9.78966346 L-5.68434189e-14,9.78966346 Z" id="Facebook-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

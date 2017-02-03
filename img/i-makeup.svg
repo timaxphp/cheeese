@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="35px" viewBox="0 0 33 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.7727273,28.1885522 C22.2515833,28.1885522 28.3143939,22.1526873 28.3143939,14.7070707 C28.3143939,7.26145408 22.2515833,1.22558923 14.7727273,1.22558923 C7.29387129,1.22558923 1.23106061,7.26145408 1.23106061,14.7070707 C1.23106061,22.1526873 7.29387129,28.1885522 14.7727273,28.1885522 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27.0833333" height="26.962963" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M14.7727273,25.7373737 C20.8917913,25.7373737 25.8522727,20.7989389 25.8522727,14.7070707 C25.8522727,8.61520256 20.8917913,3.67676768 14.7727273,3.67676768 C8.65366328,3.67676768 3.69318182,8.61520256 3.69318182,14.7070707 C3.69318182,20.7989389 8.76359951,24.025844 8.76359951,24.025844" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.1590909" height="22.0606061" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M0,29.188337 C0,28.0801673 0.886735411,27.1818182 1.99605655,27.1818182 L29.9130344,27.1818182 C31.015426,27.1818182 31.9090909,28.0689098 31.9090909,29.1882981 L31.9090909,29.6389793 L31.9090909,31.3025278 C31.9090909,32.4110939 31.0223555,33.3097643 29.9130344,33.3097643 L1.99605655,33.3097644 C0.893664956,33.3097644 0,32.4055648 0,31.3032456 L0,29.188337 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.9090909" height="6.12794617" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M2.36363636,3.75129073 C2.36363636,2.44099359 3.37775496,1.08300329 4.63035087,0.717662816 L7.09090909,0 L7.09090909,8.27272727 L2.36363636,8.27272727 L2.36363636,3.75129073 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4.72727273" height="8.27272727" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="1.18181818" y="7.09090909" width="7.09090909" height="5.90909091"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.09090909" height="5.90909091" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="11.8181818" width="9.45454545" height="11.8181818"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9.45454545" height="11.8181818" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-82.000000, -922.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(0.000000, 398.000000)">
+                    <g id="Group-11" transform="translate(72.000000, 289.000000)">
+                        <g id="Icons-set">
+                            <g id="Group-27" transform="translate(2.000000, 88.000000)">
+                                <rect id="Body" x="0" y="0" width="48" height="48"></rect>
+                                <g id="Make-up" transform="translate(8.000000, 6.000000)">
+                                    <g id="Mirror" transform="translate(0.545455, 0.181818)">
+                                        <path d="M15.9545455,25.7373737 C22.0736094,25.7373737 27.0340909,20.7989389 27.0340909,14.7070707 C27.0340909,8.61520256 22.0736094,3.67676768 15.9545455,3.67676768 C9.83548147,3.67676768 4.875,8.61520256 4.875,14.7070707 C4.875,20.7989389 9.83548147,25.7373737 15.9545455,25.7373737 Z" id="Oval-2" fill="#DFF1FF" transform="translate(15.954545, 14.707071) rotate(175.000000) translate(-15.954545, -14.707071) "></path>
+                                        <g id="Group" transform="translate(1.181818, 0.000000)" stroke="#282828" stroke-width="1.6" fill="#FFFFFF">
+                                            <use id="Oval-2" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                                            <use id="Oval-2" mask="url(#mask-4)" transform="translate(14.772727, 14.707071) rotate(205.000000) translate(-14.772727, -14.707071) " xlink:href="#path-3"></use>
+                                        </g>
+                                        <use id="Rectangle-9" stroke="#282828" mask="url(#mask-6)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-5"></use>
+                                        <rect id="Rectangle-9" fill="#FFFFFF" x="15.3636364" y="28.1885522" width="15.3636364" height="4.1932678" rx="2"></rect>
+                                    </g>
+                                    <g id="Lipstick" transform="translate(5.000000, 12.000000)" stroke="#282828" stroke-width="1.6" fill="#FFFFFF">
+                                        <use id="Rectangle-6-Copy-2" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                                        <use id="Rectangle-6-Copy" mask="url(#mask-10)" xlink:href="#path-9"></use>
+                                        <use id="Rectangle-6" mask="url(#mask-12)" xlink:href="#path-11"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,468 @@
+body
+    font-family: 'SFUIText-Regular'
+
+.button
+    background: $yellow
+    color: #000
+    font-size: 13px
+    letter-spacing: 2px
+    font-family: 'SFUIText-Heavy'
+    text-transform: uppercase
+    padding: 16px 40px
+    border-radius: 4px
+    border: none
+    &:hover, &:focus, &:active
+        text-decoration: none
+        outline: none
+        color: #000
+        background: #FCFF00
+        cursor: pointer
+    &:active
+        box-shadow: inset 0 1px 3px rgba(0,0,0,.5)
+    &-white
+        background: rgba(255,255,255,.1)
+        border: solid 1px rgba(255,255,255,.7)
+        color: #fff
+        &:hover, &:focus, &:active
+            color: #fff
+            background: rgba(255,255,255,.1)
+    &-black
+        background: #fff
+        border: solid 1px #000
+        color: #000
+        &:hover, &:focus, &:active
+            color: #000
+            background: #fff
+    &-blackFill
+        background: #000
+        color: #fff
+        &:hover, &:focus, &:active
+            background: #000
+            color: #fff
+    &-grey
+        background: transparent
+        border: solid 1px rgba(#000, .2)
+        &:hover, &:focus, &:active
+            background: transparent
+            color: #000
+    &-green
+        background: $green
+        color: #fff
+        border: solid 1px $green
+        &:hover, &:focus, &:active
+            background: $green
+            color: #fff
+    &-red
+        background: $red
+        color: #fff
+        border: solid 1px $red
+        &:hover, &:focus, &:active
+            background: $red
+            color: #fff
+
+.icon
+    display: inline-block
+    vertical-align: middle
+    &-loc
+        width: 10px
+        height: 17px
+        background: transparent url('../img/i-pin.svg') center no-repeat
+    &-edit
+        width: 14px
+        height: 14px
+        background: transparent url('../img/i-edit.svg') center no-repeat
+        margin-right: 5px
+    &-car, &-nightmare, &-nature, &-animals, &-makeup, &-lgbt, &-tour, &-allfiles
+        width: 48px
+        height: 48px
+    &-car
+        background: transparent url('../img/i-car.svg') center no-repeat
+    &-nightmare
+        background: transparent url('../img/i-nightmare.svg') center no-repeat
+    &-nature
+        background: transparent url('../img/i-nature.svg') center no-repeat
+    &-animals
+        background: transparent url('../img/i-animals.svg') center no-repeat
+    &-makeup
+        background: transparent url('../img/i-makeup.svg') center no-repeat
+    &-lgbt
+        background: transparent url('../img/i-lgbt.svg') center no-repeat
+    &-tour
+        background: transparent url('../img/i-tour.svg') center no-repeat
+    &-allfiles
+        background: transparent url('../img/i-allfiles.svg') center no-repeat
+    &-arrowdown
+        width: 15px
+        height: 10px
+        display: inline-block
+        vertical-align: middle
+        background: transparent url('../img/arrowdown.svg') center right no-repeat
+
+
+.customLab
+    &__input
+        display: none
+        &:checked + label
+            &::before
+                background: #000 url('../img/check.svg') center no-repeat
+    &__label
+        margin: 0
+        position: relative
+        padding-left: 30px
+        cursor: pointer
+        &::before
+            content: ''
+            display: block
+            width: 16px
+            height: 16px
+            position: absolute
+            left: 0
+            top: 50%
+            transform: translateY(-50%)
+            border: solid 1px rgba(0,0,0, .3)
+            border-radius: 2px
+        &:hover
+            &::before
+                border-color: #000
+
+.header
+    position: relative
+    &-onlyNav
+        padding: 0
+        background: #000
+    &__nav
+        padding: 20px 0
+        transition: all .4s
+        &__logo
+            max-width: 70px
+            max-height: 50px
+            position: absolute
+            left: 50%
+            top: -10px
+            transform: translateX(-50%)
+            display: none
+        &-fixed
+            position: fixed
+            width: 100%
+            left: 0
+            top: 0
+            z-index: 9999
+        &-black, &-profile
+            background: #000
+            padding: 25px 0
+            .header__nav__logo
+                display: block
+        &-searchActive
+            .header__link
+                &-hideOnSearch
+                    display: none
+                &__search
+                    display: inline-block
+                    border-right: none
+                    span
+                        display: none
+                    &__input
+                        visibility: visible
+                        max-width: 90%
+    .button-white
+        font-size: 12px
+        font-family: 'SFUIText-Regular'
+        padding: 11px 14px
+    &__link
+        font-size: 12px
+        color: #fff
+        text-transform: uppercase
+        letter-spacing: 1px
+        padding: 0 30px
+        border-right: solid 1px rgba(255,255,255,.2)
+        &:hover, &:focus, &:active
+            color: #fff
+            text-decoration: none
+        &-nb
+            border: none
+        &-orders
+            border-left: solid 1px rgba(255,255,255,.2)
+            position: relative
+            span
+                position: absolute
+                top: -10px
+                right: 20px
+                font-size: 10px
+                &::before
+                    content: ''
+                    display: block
+                    width: 16px
+                    height: 16px
+                    position: absolute
+                    left: 50%
+                    top: 50%
+                    transform: translate(-50%, -52%)
+                    background: #f1573d
+                    border-radius: 10px
+                    z-index: -1
+        &-profile
+            padding: 0 20px
+            border-right: none
+            display: inline-block
+            position: relative
+            cursor: pointer
+        &-messageIcon
+            padding: 0 20px
+        &__search
+            display: inline-block
+            background: transparent url(../img/i-search.svg) left 15px center no-repeat
+            padding-left: 40px !important
+            border-left: solid 1px rgba(255,255,255,.2)
+            cursor: pointer
+            width: 126px
+            height: 18px
+            vertical-align: middle
+            &__input
+                position: absolute
+                left: 40px
+                top: 4px
+                width: 100%
+                max-width: 0
+                border: rgba(255,255,255,.7)
+                background: rgba(255,255,255,.1)
+                height: 18px
+                line-height: 18px
+                font-size: 14px
+                padding: 0 15px
+                color: #fff
+                visibility: hidden
+                transition: max-width .4s
+                &:hover, &:focus, &:active
+                    outline: none
+        &__img
+            display: inline-block
+            vertical-align: middle
+            width: 30px
+            height: 30px
+            border-radius: 100%
+            margin-right: 12px
+        &__messages
+            display: inline-block
+            vertical-align: middle
+            width: 26px
+            height: 25px
+            background: transparent url('../img/message.svg') center no-repeat
+            position: relative
+            left: 3px
+    &__logo
+        text-align: center
+        margin-top: 100px
+        &__img
+            width: 100%
+            max-width: 500px
+        &__desc
+            font-size: 23px
+            text-transform: uppercase
+            letter-spacing: 2px
+            font-family: 'SFUIText-Bold'
+            color: #fff
+    &__search
+        width: 100%
+        max-width: 860px
+        margin: 60px auto 0 auto
+        position: relative
+        &__inp
+            line-height: 60px
+            height: 60px
+            font-size: 16px
+            color: #000
+            border: none
+            font-family: 'SFUIText-Semibold'
+            display: block
+            width: 100%
+            padding: 0 10px 0 40px
+            &:hover, &:focus, &:active
+                outline: none
+        &__loc
+            position: relative
+            z-index: 100
+            float: left
+            width: 42%
+            background-color: #fff
+            border-radius: 4px 0 0 4px
+            overflow: hidden
+            border-right: solid 2px #f6f6f6
+            .header__search__inp
+                background: #fff url(../img/i-location.svg) left 19px center no-repeat
+        &__date
+            position: relative
+            z-index: 100
+            float: left
+            width: 58%
+            background-color: #fff
+            border-radius: 0 4px 4px 0
+            .header__search__inp
+                padding-right: 140px
+                background: #fff url(../img/i-calendar.svg) left 15px center no-repeat
+                border-radius: 0 4px 4px 0
+        .button
+            position: absolute
+            z-index: 100
+            right: 0
+            top: 0
+            padding: 20px 32px
+            height: 60px
+    &__res
+        position: absolute
+        top: 56px
+        left: 0
+        width: 100%
+        background: #fff
+        padding-top: 4px
+        z-index: 1
+        border-radius: 0 0 4px 4px
+        overflow: hidden
+        display: none
+        &__item
+            height: 50px
+            line-height: 50px
+            padding: 0 20px
+            display: block
+            border-top: solid 2px #f6f6f6
+            color: #000
+            font-family: 'SFUIText-Semibold'
+            background: #fff
+            &:hover
+                background: #000
+                color: #fff
+                border-color: transparent
+                text-decoration: none
+            &:focus, &:active
+                text-decoration: none
+    &__iconmenu
+        display: inline-block
+        width: 25px
+        height: 20px
+        position: relative
+        z-index: 9000
+        span
+            display: block
+            width: 100%
+            height: 2px
+            background: #fff
+            margin-bottom: 5px
+            transition: all .3s
+            &:nth-child(3)
+                margin-bottom: 0
+    &__mobmenu
+        background: #fff
+        padding: 20px 15px
+        position: fixed
+        z-index: 99999
+        right: 0
+        top: 0
+        width: 100%
+        height: 100%
+        transform: translateX(150%)
+        transition: transform .3s
+        &__body
+            display: block
+            width: 100%
+            position: absolute
+            left: 0
+            top: 60px
+            bottom: 0
+        .header__link
+            color: #000
+            display: block
+            line-height: 55px
+            font-size: 16px
+            border-bottom: solid 1px #f1eff1
+            padding: 0 15px
+            margin: 0
+            font-family: 'SFUIText-Semibold'
+            &-nb
+                border: none
+            &-search
+                background: none
+                padding: 0 15px
+            &-orders
+                span
+                    vertical-align: middle
+                    margin-left: 5px
+                    position: relative
+                    top: 0
+                    left: 0
+                    color: #fff
+                    display: inline-block
+                    vertical-align: top
+                    text-align: center
+                    line-height: 53px
+                    &::before
+                        transform: translate(-52%, -52%)
+        .button
+            display: block
+            padding: 16px 20px
+            position: absolute
+            left: 0
+            bottom: 0
+            width: 100%
+            text-align: center
+            border-radius: 0
+            background: #000
+            color: #fff
+    &__moblogo
+        max-width: 60px
+        position: absolute
+        left: 0
+        top: 0
+        transform: translateY(-30%)
+
+.footer
+    background: #000
+    color: #fff
+    padding: 60px 0 115px 0
+    position: relative
+    z-index: 100
+    &__logo
+        max-width: 80px
+        margin-bottom: 20px
+    &__text
+        opacity: .7
+    &__header
+        font-weight: normal
+        font-size: 16px
+    &__link
+        color: #fff
+        display: table
+        line-height: 30px
+        opacity: .7
+        &:hover, &:focus, &:active
+            color: #fff
+    &__socials
+        display: inline-block
+    &__social
+        display: inline-block
+        width: 37px
+        height: 37px
+        border: solid 1px rgba(255,255,255,.2)
+        border-radius: 3px
+        margin-right: 20px
+        margin-top: 15px
+        background-color: none
+        background-repeat: no-repeat
+        background-position: center
+        transition: all .2s
+        &:last-child
+            margin-right: 0
+        &-fb
+            background-image: url(../img/i-facebook.svg)
+        &-inst
+            background-image: url(../img/i-insta.svg)
+        &-rss
+            background-image: url(../img/i-rss.svg)
+        &:hover
+            border-color: rgba($yellow, .7)
+    &__copy
+        padding-top: 30px
+        margin-top: 80px
+        border-top: solid 1px rgba(255,255,255,.2)
+    &__pay
+        img
+            width: 100%
+            max-width: 122px

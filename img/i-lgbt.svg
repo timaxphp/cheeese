@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="22px" viewBox="0 0 39 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.88916303,15.6470871 C0.835116524,15.7058049 0,16.5786634 0,17.6468173 L0,18.5653039 C0,19.6649999 0.891990136,20.5681818 1.99231573,20.5681818 L12.7804115,20.5681818 C13.8708649,20.5681818 14.7727273,19.6714628 14.7727273,18.5653039 L14.7727273,17.6468173 C14.7727273,16.5471214 13.8777378,15.6439394 12.7737122,15.6439394 L12.3106061,15.6439394 L10.1465573,15.6439394 C9.54567368,14.209517 7.92433723,13.1818182 6.01851852,13.1818182 C4.11130604,13.1818182 2.48899208,14.2110207 1.88916303,15.6470871 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.7727273" height="7.38636364" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M25.889163,15.6470871 C24.8351165,15.7058049 24,16.5786634 24,17.6468173 L24,18.5653039 C24,19.6649999 24.8919901,20.5681818 25.9923157,20.5681818 L36.7804115,20.5681818 C37.8708649,20.5681818 38.7727273,19.6714628 38.7727273,18.5653039 L38.7727273,17.6468173 C38.7727273,16.5471214 37.8777378,15.6439394 36.7737122,15.6439394 L36.3106061,15.6439394 L34.1465573,15.6439394 C33.5456737,14.209517 31.9243372,13.1818182 30.0185185,13.1818182 C28.111306,13.1818182 26.4889921,14.2110207 25.889163,15.6470871 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.7727273" height="7.38636364" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-160.000000, -928.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(0.000000, 398.000000)">
+                    <g id="Group-11" transform="translate(72.000000, 289.000000)">
+                        <g id="Icons-set">
+                            <g id="Group-26" transform="translate(83.000000, 88.000000)">
+                                <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+                                <g id="Rainbow" transform="translate(5.000000, 14.000000)">
+                                    <path d="M11.6185859,15.6931818 C11.6185859,15.6931818 11.6185859,8.45454545 18.8276767,8.45454545 C26.0367675,8.45454545 26.0367675,15.6931818 26.0367675,15.6931818" id="9" stroke="#282828" stroke-width="0.8"></path>
+                                    <path d="M3.52315296,16 C3.52315296,16 3.52315296,1.95943488e-15 19.1371212,0 C34.7510895,0 34.7510895,16 34.7510895,16" id="3" stroke="#000000" stroke-width="0.8"></path>
+                                    <path d="M8,16 C8,16 8,4 19,4 C30,4 30,16 30,16" id="3-copy" stroke="#000000" stroke-width="0.8"></path>
+                                    <use id="Cloud" stroke="#282828" mask="url(#mask-2)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                    <use id="Cloud" stroke="#282828" mask="url(#mask-4)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

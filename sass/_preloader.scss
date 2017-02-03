@@ -1,0 +1,37 @@
+#preloader {
+    position: fixed;
+    z-index: 999999;
+    overflow: hidden;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        fill:none;
+        stroke:#000;
+        stroke-miterlimit: 10px;
+    }
+
+    .st0{stroke-width:15}
+    .st1{stroke-width:7}
+    .st2{stroke-width:12}
+    .st3{stroke-width:14}
+    .st4{stroke-width:5}
+    .st5{stroke-width:10}
+    .st6{stroke-width:11.1}
+    .st7{stroke-width:6.4}
+    .st8{stroke-width:10.5}
+
+    svg {
+        width: 300px;
+        height: 160px;
+        top: 50%;
+        left: 50%;
+        margin-left: -150px;
+        margin-top: -160px;
+        position: absolute;
+    }
+}

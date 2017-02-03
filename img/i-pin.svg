@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.25380222,9.41140949 C7.4465022,9.16966305 7.61164706,8.90398579 7.74433161,8.61939986 L7.74966852,8.61078287 L7.74835765,8.61073736 C7.98456079,8.10090861 8.11670689,7.53072066 8.11670689,6.92893237 C8.11670689,4.75904294 6.39863203,3 4.27927928,3 C2.15992653,3 0.441851667,4.75904294 0.441851667,6.92893237 C0.441851667,7.4362494 0.535764679,7.92110884 0.706762244,8.36628095 L0.674655337,8.36516632 L0.777681897,8.53866654 C0.908105776,8.83560478 1.0735029,9.11295721 1.26850239,9.36522489 L4.21216193,14.3224474 L7.25380222,9.41140949 Z M4.27927928,8.35762482 C5.2426196,8.35762482 6.02356123,7.55806137 6.02356123,6.57174988 C6.02356123,5.58543839 5.2426196,4.78587494 4.27927928,4.78587494 C3.31593896,4.78587494 2.53499733,5.58543839 2.53499733,6.57174988 C2.53499733,7.55806137 3.31593896,8.35762482 4.27927928,8.35762482 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-122.000000, -278.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-13" transform="translate(126.000000, 137.000000)">
+                    <g id="Pin-icon">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

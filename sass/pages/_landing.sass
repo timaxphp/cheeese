@@ -1,0 +1,398 @@
+.loginForm
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,.7)
+    z-index: 999999
+    display: none
+    &-active
+        display: block
+    &__body
+        width: 100%
+        max-width: 460px
+        padding: 45px 60px 40px 60px
+        background: #fff
+        margin: 80px auto 0 auto
+        border-radius: 4px
+        overflow-y: auto
+        position: relative
+    &__input
+        display: block
+        width: 100%
+        border: none
+        border-bottom: solid 1px #e5e5e5
+        height: 70px
+        line-height: 70px
+        &:hover, &:focus, &:active
+            outline: none
+        &-login
+            padding-left: 35px
+            background: #fff url('../img/i-email.svg') left 5px center no-repeat
+        &-pass
+            padding-left: 35px
+            background: #fff url('../img/i-pass.svg') left 5px center no-repeat
+        &-pass
+    &__header
+        font-family: 'SFUIText-Bold'
+        font-size: 22px
+        letter-spacing: 1px
+        text-transform: uppercase
+        color: #000
+        margin: 15px 0 30px 0
+        padding-top: 15px
+        position: relative
+        &::before
+            content: ''
+            display: block
+            height: 1px
+            width: 25px
+            background: #e5e5e5
+            position: absolute
+            left: 50%
+            top: 0
+            transform: translateX(-50%)
+    &__button
+        display: block
+        width: 100%
+        border: none
+        border-radius: 4px
+        height: 50px
+        line-height: 50px
+        text-transform: uppercase
+        color: #fff
+        background: #000
+        margin: 30px 0 10px 0
+        font-family: 'SFUIText-Heavy'
+        font-size: 12px
+        letter-spacing: 2px
+        font-weight: normal
+        cursor: pointer
+        &:hover, &:focus, &:active
+            outline: none
+        &-fb
+            margin: 0
+            background: #3b5a98 url('../img/facebook-icon.svg') left 25px center no-repeat
+    &__controls
+        margin-top: 25px
+    &__link
+        font-size: 13px
+        color: #515151
+        &:hover, &:focus, &:active
+            color: #515151
+    &__close
+        position: absolute
+        right: 15px
+        top: 5px
+        font-size: 28px
+        color: #000
+        transform: rotate(45deg)
+        &:hover, &:focus, &:active
+            text-decoration: none
+            color: #000
+
+.main__header
+    background: #fff url(../img/bg1.jpg) center no-repeat
+    background-size: cover
+    padding-top: 60px
+    padding-bottom: 180px
+    .bootstrap-datetimepicker-widget.dropdown-menu
+        padding: 0
+        transform: translateX(-25%)
+        &::after, &::before
+            width: 20px
+            height: 20px
+            border-radius: 100%
+            background: #000
+            border: none
+            top: -10px
+            left: 50%
+            transform: translateX(-50%)
+        .datepicker-days
+            font-size: 14px
+            thead
+                tr:first-child
+                    background: #000
+                    color: #fff
+                    height: 64px
+                    text-transform: uppercase
+                    th
+                        border-radius: 0
+                        &:hover
+                            background-color: #000
+                    .prev, .next
+                        background-repeat: no-repeat
+                        background-position: center
+                    .prev
+                        background-image: url(../img/i-left.svg)
+                    .next
+                        background-image: url(../img/i-right.svg)
+                tr:last-child
+                    height: 60px
+                    border-left: solid 20px transparent
+                    border-right: solid 20px transparent
+            tbody
+                border: solid 20px transparent
+                border-top: none
+                tr
+                    height: 35px
+                    td
+                        vertical-align: middle
+                        padding: 0
+                        line-height: 19px
+                        height: 19px
+                        width: 19px
+                        &:hover
+                            background: #fff
+                        &.active
+                            background: none
+                            border: solid 2px transparent
+                            border-radius: 100px
+                            position: relative
+                            &::before
+                                display: none
+                            &::after
+                                content: ''
+                                display: block
+                                width: 30px
+                                height: 30px
+                                position: absolute
+                                top: 50%
+                                left: 50%
+                                transform: translate(-50%, -50%)
+                                z-index: -1
+                                background: #000
+                                border-radius: 100%
+                        &.today
+                            &::before
+                                display: none !important
+                        &.new
+                            color: #e5e5e5
+.carouselOne
+    &__item
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+        background-color: #fff
+        padding: 180px 0 50px 0
+    &__body
+        width: 100%
+        max-width: 600px
+        background: #000
+        box-shadow: 0 2px 4px rgba(0,0,0,.8)
+        padding: 0 40px 40px 40px
+        color: #fff
+        margin-left: 100px
+    &__subheader
+        text-transform: uppercase
+        font-size: 16px
+        font-family: 'SFUIText-Semibold'
+        margin: 0 0 20px 0
+    &__header
+        text-transform: uppercase
+        font-size: 32px
+        line-height: 1.25
+        font-family: 'SFUIText-Bold'
+        margin: 0 0 17px 0
+        letter-spacing: 2px
+    &__text
+        font-size: 16px
+        opacity: .8
+        margin: 0 0 32px 0
+    &__arrows
+        margin-bottom: 5px
+        margin-right: -40px
+    &__arrow
+        display: block
+        width: 50px
+        height: 50px
+        float: right
+        margin-left: 2px
+        background-color: rgba(255,255,255,.15)
+        background-position: center
+        background-repeat: no-repeat
+        &-left
+            background-image: url(../img/i-arrow_r.svg)
+        &-right
+            background-image: url(../img/i-arrow_l.svg)
+        &:hover, &:focus, &:active
+            text-decoration: none
+            color: #fff
+            cursor: pointer
+            outline: none
+        &:focus, &:active
+            box-shadow: inset 1px -1px 8px rgba(#0A0A0A, .8)
+    .slick-dots
+        position: absolute
+        right: 10%
+        top: 50px
+        bottom: auto
+        left: auto
+        width: auto
+        li
+            margin: 0 2px
+        li button::before
+            color: #fff
+            opacity: 1
+            font-size: 10px
+        li.slick-active button::before
+            color: $yellow
+            opacity: 1
+            font-size: 14px
+.benefits
+    background: $yellow
+    padding: 115px 0
+    &__header
+        font-size: 32px
+        font-family: 'SFUIText-Bold'
+        text-transform: uppercase
+    &__info
+        padding-left: 30px
+        border-left: solid 4px #000
+        opacity: .7
+        margin-bottom: 100px
+    &__item
+        margin: 0 30px
+    &__row
+        margin-left: -10px
+        margin-right: -10px
+    &__img
+        float: left
+        width: 26%
+        max-width: 65px
+        max-height: 65px
+    &__body
+        float: right
+        width: 74%
+    &__subheader
+        font-size: 16px
+        font-family: 'SFUIText-Bold'
+        margin-bottom: 16px
+        text-transform: uppercase
+        letter-spacing: 1px
+    &__text
+        opacity: .7
+
+.mobapp
+    padding-top: 90px
+    background: #f7f7f7
+    &__header
+        font-size: 32px
+        text-transform: uppercase
+        letter-spacing: 1px
+        font-family: 'SFUIText-Bold'
+        margin-top: 100px
+        margin-bottom: 15px
+        max-width: 520px
+    &__text
+        max-width: 520px
+    &__store
+        img
+            width: 100%
+            max-width: 148px
+        &:hover, &:focus, &:active
+            text-decoration: none
+    &__img
+        width: 100%
+        max-width: 484px
+    &__block
+        margin-left: 70px
+
+.pictures
+    padding-top: 80px
+    padding-bottom: 90px
+    &__header
+        font-size: 28px
+        font-family: 'SFUIText-Bold'
+        text-transform: uppercase
+        margin: 0
+    &__category
+        height: 30px
+        &__item
+            vertical-align: middle
+            line-height: 30px
+            font-size: 12px
+            opacity: .5
+            margin: 0 18px
+            text-transform: uppercase
+            color: #000
+            padding-bottom: 5px
+            &-active
+                opacity: 1
+                border-bottom: solid 2px $yellow
+            &:hover, &:focus, &:active
+                text-decoration: none
+                color: #000
+        &-mob
+            border: solid 1px #000
+            border-radius: 4px
+            background-color: #fff
+            background-image: url(../img/arrowdown.svg)
+            background-position: right 15px center
+            background-repeat: no-repeat
+            line-height: 35px
+            height: 35px
+            padding: 0 40px 0 15px
+            text-transform: uppercase
+            -webkit-appearance: none
+            -moz-appearance:none
+            appearance: none
+            &:hover, &:focus, &:active
+                outline: none
+    &__img
+        width: 100%
+    &__desc
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,.3)
+        text-align: center
+        display: none
+        &__text
+            display: block
+            width: 100%
+            position: absolute
+            left: 50%
+            top: 50%
+            transform: translate(-50%, -50%)
+    &__name
+        font-size: 23px
+        color: #fff
+        font-family: 'SFUIText-Semibold'
+        letter-spacing: 1px
+    .button
+        font-size: 10px
+        padding: 13px 12px
+    &__row
+        margin-top: 60px
+        margin-right: -10px
+        margin-left: -10px
+    &__item
+        position: relative
+        overflow: hidden
+        width: calc( 25% - 20px)
+        margin-left: 10px
+        margin-right: 10px
+        margin-bottom: 20px
+        &-big
+            width: calc( 50% - 20px)
+        &:hover
+            & > .pictures__img
+                -webkit-filter: blur(3px)
+                filter: blur(3px)
+            & > .pictures__desc
+                display: block
+    &__more
+        &.button
+            font-size: 13px
+            height: 51px
+            line-height: 51px
+            padding: 0
+            text-align: center
+            display: block
+            width: 100%
+            max-width: 260px
+            margin: 60px auto 0 auto

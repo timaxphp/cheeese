@@ -1,0 +1,360 @@
+// XS AND SM
+@media (max-width: 767px)
+    .container
+        padding: 0 15px
+    .header
+        padding-bottom: 50px
+        &-onlyNav
+            padding-bottom: 6px
+        &__logo
+            margin-top: 0
+            &__desc
+                font-size: 18px
+        &__search
+            &__loc, &__date
+                float: none
+                width: 100%
+                border-radius: 4px
+                margin-bottom: 10px
+            &__date
+                .header__search__inp
+                    border-radius: 4px
+                    padding-right: 20px
+            .button
+                position: static
+                width: 100%
+        &__res
+            z-index: 9999
+        .bootstrap-datetimepicker-widget.dropdown-menu
+            transform: translateX(0)
+    .carouselOne
+        &__body
+            margin-left: 0
+            padding: 0 20px 30px 20px
+        &__item
+            padding: 50px 0
+        &__header
+            font-size: 24px
+        &__arrows
+            margin-right: -20px
+            margin-bottom: 20px
+        .button
+            padding: 14px 13px
+    .benefits
+        padding: 40px 0
+        &__header
+            margin-bottom: 20px
+        &__item
+            margin: 15px 0 15px 0
+    .mobapp
+        padding: 60px 0
+        &__header
+            margin-top: 0
+    .pictures
+        padding: 50px 0
+        &__category
+            &-mob
+                margin-top: 20px
+    .profile
+        &-pr10, &-pl10
+            padding: 0
+        .button
+            max-width: none
+        &__input
+            &-perhour
+                .profile__input
+                    width: 50%
+    .photProfile
+        &__controls
+            padding-right: 0 !important
+            .button
+                width: 100%
+                margin: 5px 0
+        &__selectedItems
+            text-align: center
+            display: block
+            margin: 10px 0
+            width: 100%
+        &__selectAll, &__diselectAll, &__upload, &__delete, &__exit, &__selectedItems
+            display: none
+        &-editOn
+            .photProfile__selectAll, .photProfile__upload
+                display: block
+            .photProfile__edit
+                display: none
+            .picturesPhot__item__img
+                -webkit-filter: blur(3px)
+                filter: blur(3px)
+            .picturesPhot__controls
+                display: block
+        &-selectedItems
+            .photProfile__upload
+                display: none
+            .photProfile__delete
+                display: block
+            .photProfile__exit
+                display: block
+            .photProfile__selectedItems
+                display: block
+        &-selectedAllItems
+            .photProfile__selectAll
+                display: none
+            .photProfile__diselectAll
+                display: block
+        &__uploadPopup
+            .dropzone
+                height: 300px
+    .picturesPhot
+        &__item
+            width: calc(50% - 10px)
+            &__download, &__delete
+                width: 30px
+                height: 30px
+                margin: 0 0 10px auto
+                background-size: 15px auto
+        &__check
+            label
+                width: 30px
+                height: 30px
+                margin: 0 0 10px auto
+
+// MD AND LG
+@media (min-width: 768px) and (max-width: 1339px)
+    .carouselOne
+        &__body
+            margin-left: 0
+    .benefits__img
+        max-width: 48px
+        max-height: 48px
+    .mobapp
+        &__header, &__text
+            padding-right: 15px
+
+// XS, SM, MD
+@media (max-width: 1023px)
+    body, html
+        overflow-x: hidden
+    .main__header
+        padding-bottom: 60px
+    .header
+        padding-top: 20px
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        &-onlyNav
+            position: fixed
+            left: 0
+            top: 0
+            width: 100%
+            z-index: 99999
+        &__nav
+            padding: 0
+            position: relative
+            &-black
+                background: none
+        &__mobmenu
+            &-active
+                transform: translateX(0)
+        &__iconmenu
+            z-index: 999999
+            &-active
+                span
+                    background: #000
+                    position: absolute
+                    top: 50%
+                    &:nth-child(1)
+                        left: 0
+                        transform: rotate(45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        right: 0
+                        transform: rotate(-45deg)
+    .mobapp
+        &__block
+            margin-left: 0
+    .profile
+        padding-top: 100px
+        padding-bottom: 40px
+        &__setBlock
+            max-width: none
+        &__content
+            padding: 0
+
+    .photProfile
+        padding-top: 50px
+        &__info
+            padding: 40px
+            box-shadow: none
+            &::after
+                content: ''
+                position: absolute
+                height: 100%
+                width: 1000%
+                background: #fff
+                top: 0
+                right: -1000%
+        &__price
+            position: static
+            margin: 10px auto
+            text-align: center
+        &__about
+            padding: 40px
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.07)
+            box-shadow: none
+            &::before
+                box-shadow: none
+            &::after
+                content: ''
+                position: absolute
+                height: 100%
+                width: 1000%
+                background: #FDFDFD
+                top: 0
+                right: -1000%
+                box-shadow: none
+        &__content
+            padding-left: 0
+            padding-right: 0
+            padding-bottom: 40px
+        &__controls
+            padding-right: 20px
+            padding-top: 40px
+        &__moreinfo
+            display: none
+            &-active
+                display: block
+
+// XS
+@media (max-width: 575px)
+    .footer
+        &__header
+            margin-top: 20px
+    .pictures
+        &__item
+            width: 100%
+            height: 300px
+            margin-left: 0
+            margin-right: 0
+            display: none
+            &-big
+                width: 100%
+            &:nth-child(1), &:nth-child(2), &:nth-child(3)
+                display: block
+        &__img
+            position: absolute
+            left: 50%
+            top: 50%
+            min-width: 100%
+            min-height: 100%
+            max-width: 400%
+            max-height: 400%
+            transform: translate(-50%, -50%)
+        &__row
+            margin-left: 0
+            margin-right: 0
+    .benefits
+        &__info
+            margin-bottom: 40px
+        &__img
+            width: 50px
+            height: 50px
+    .loginForm
+        &__body
+            padding: 40px 15px
+            margin: 10px auto 0 auto
+            overflow-y: auto
+        &__link
+            display: block
+            margin: 5px 0
+        &__input
+            height: 45px
+            line-height: 45px
+        &__button
+            height: 40px
+            line-height: 40px
+    .photProfile
+        &__info
+            padding: 20px 15px
+            .button
+                font-size: 12px
+                padding: 16px 10px
+        &__about
+            padding: 20px 15px
+    .picturesPhot
+        &__item
+            position: relative
+            width: calc(50% - 10px)
+            display: none
+            height: 150px
+            overflow: hidden
+            &__img
+                position: absolute
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                min-width: 100%
+                min-height: 100%
+                width: auto
+                height: auto
+                max-width: 200%
+                max-height: 200%
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7)
+                display: block
+            &:nth-child(2)
+                width: 100%
+
+// SM
+@media (min-width: 576px) and (max-width: 767px)
+    .pictures
+        &__item
+            width: calc( 50% - 20px )
+            &-big
+                width: calc( 100% - 20px)
+// MD
+@media (min-width: 768px) and (max-width: 1023px)
+    .pictures
+        &__item
+            width: calc(33.3333333333333% - 20px)
+            &-big
+                width: calc(66.666666666666666% - 20px)
+    .mobapp
+        &__header
+            margin-top: 60px
+    .header
+        &-onlyNav
+            padding-bottom: 6px
+    .picturesPhot
+        &__item
+            width: 340px
+    .photProfile
+        &__selectedItems
+            display: none !important
+// LG
+@media (min-width: 1024px) and (max-width: 1339px)
+    .container
+        width: 95%
+    .header__link
+        padding: 0 10px
+        &-orders
+            padding-right: 22px
+            span
+                right: 12px
+    .profile
+        &__sidebar
+            width: 27%
+    .photProfile
+        &__controls
+            .button
+                margin: 5px 0
+        &__selectedItems
+            display: none !important
+        &__about
+            padding-right: 30px
+        &__info
+            padding-right: 30px
+            .button
+                padding: 16px 15px
+        &__price
+            right: 30px

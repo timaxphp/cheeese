@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Location icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.72333335,7.0572156 C6.83585819,7.0572156 7.73773776,6.15324634 7.73773776,5.03814373 C7.73773776,3.92304113 6.83585819,3.01907187 5.72333335,3.01907187 C4.61080851,3.01907187 3.70892894,3.92304113 3.70892894,5.03814373 C3.70892894,6.15324634 4.61080851,7.0572156 5.72333335,7.0572156 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4.02880883" height="4.03814373" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="1.-Index" transform="translate(-311.000000, -462.000000)" stroke="#000000">
+            <g id="Banner-1">
+                <g id="Text" transform="translate(294.000000, 142.000000)">
+                    <g id="Search-bar" transform="translate(0.000000, 297.000000)">
+                        <g id="Location">
+                            <g id="Location-icon" transform="translate(16.970072, 22.619294)">
+                                <path d="M5.38453346,13.4509432 C5.38453346,13.4509432 10.1747427,7.7695489 10.1747427,5.36102261 C10.1747427,2.95249633 8.12090657,1 5.58737134,1 C3.05383611,1 1,2.95249633 1,5.36102261 C1,7.7695489 5.38453346,13.4509432 5.38453346,13.4509432 Z" id="Combined-Shape" stroke-width="1.04999998"></path>
+                                <use id="Oval-95" mask="url(#mask-2)" stroke-width="2.09999996" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

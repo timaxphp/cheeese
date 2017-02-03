@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="31px" viewBox="0 0 26 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.046875,12.7006579 L4.87500007,0 L21.9375005,0 L23.765625,12.1240952 L23.765625,12.1240952 C24.7752708,17.543889 20.8913653,21.9375 15.0940113,21.9375 C15.0940113,21.9375 19.804688,21.9375 13.4062505,21.9375 C7.00781299,21.9375 11.7184896,21.9375 11.7184896,21.9375 C5.91964352,21.9375 2.13281247,17.3190789 3.046875,12.7006579 L3.046875,12.7006579 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="21.0143011" height="21.9375" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M4.875,23.5445467 C4.875,23.5445467 8.96715546,22.3257966 13.2327805,22.3257966 C17.4984055,22.3257966 21.9375,23.5445467 21.9375,23.5445467 L21.9375,24.6040745 C21.9375,25.6397552 21.1260791,26.2670502 20.1011304,26.0324431 C20.1011304,26.0324431 17.7461065,25.2605901 13.40625,25.2605901 C9.06639351,25.2605901 6.67916412,26.0393435 6.67916412,26.0393435 C5.68275179,26.282347 4.875,25.6461964 4.875,24.6040745 L4.875,23.5445467 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.0625" height="3.76524703" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="12.1875" y="23.15625" width="2.4375" height="3.65625" rx="1.21875"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="2.4375" height="3.65625" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M21.0424974,2.49750965 C21.1574422,1.11817316 22.3690467,0 23.7452475,0 L26.1256233,0 L26.1256233,12.1274903 C26.1256233,13.5068268 25.0079356,14.625 23.6294794,14.625 L22.5280171,14.625 C21.1494349,14.625 20.1254828,13.5016849 20.2399991,12.1274903 L21.0424974,2.49750965 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.89436581" height="14.625" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M1.50333685,2.49750965 C1.61828156,1.11817316 2.82988613,0 4.20608691,0 L6.58646266,0 L6.58646266,12.1274903 C6.58646266,13.5068268 5.46877498,14.625 4.09031879,14.625 L2.98885652,14.625 C1.61027433,14.625 0.586322249,13.5016849 0.70083846,12.1274903 L1.50333685,2.49750965 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.89436581" height="14.625" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-324.000000, -836.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(0.000000, 398.000000)">
+                    <g id="Group-11" transform="translate(72.000000, 289.000000)">
+                        <g id="Icons-set">
+                            <g id="Group-23" transform="translate(241.000000, 0.000000)">
+                                <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+                                <g id="Group-10" transform="translate(10.000000, 9.000000)">
+                                    <g id="Doggy" transform="translate(0.656250, 0.656250)">
+                                        <path d="M8.53125,19.5 L6.09375,23.15625 C6.09375,23.15625 11.0173492,24.375 13.40625,24.375 C15.8923492,24.375 20.71875,23.15625 20.71875,23.15625 L18.28125,19.5 L8.53125,19.5 Z" id="Neck" stroke="#282828" stroke-width="0.8" fill="#FFFFFF"></path>
+                                        <use id="Head" stroke="#282828" mask="url(#mask-2)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                        <use id="Rectangle" stroke="#282828" mask="url(#mask-4)" stroke-width="1.6" fill="#FFFFFF" transform="translate(13.406250, 24.208420) scale(1, -1) translate(-13.406250, -24.208420) " xlink:href="#path-3"></use>
+                                        <use id="Rectangle-" stroke="#282828" mask="url(#mask-6)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-5"></use>
+                                        <circle id="Oval-" stroke="#282828" stroke-width="0.8" fill="#FFFFFF" cx="13.40625" cy="28.03125" r="1.21875"></circle>
+                                        <path d="M10.96875,16.453125 L13.40625,14.625 L15.84375,16.453125 L15.84375,17.5016865 C15.84375,18.6053246 14.9495999,19.5 13.8468349,19.5 L12.9656651,19.5 C11.8627993,19.5 10.96875,18.6023165 10.96875,17.5016865 L10.96875,16.453125 Z" id="Tongue" stroke="#282828" stroke-width="0.8" fill="#FFFFFF"></path>
+                                        <path d="M7.83082843,14.6099777 C7.94251865,15.2714146 8.40163027,16.6308594 10.2888455,16.6308594 C12.7827691,16.6308594 13.40625,14.2568359 13.40625,14.2568359" id="Path-" stroke="#282828" stroke-width="0.8" fill="#FFFFFF"></path>
+                                        <path d="M13.40625,14.2568359 C13.40625,14.2568359 14.0297309,16.6308594 16.5236545,16.6308594 C18.3966834,16.6308594 18.8629983,15.2917758 18.9790935,14.6250113" id="Path-" stroke="#282828" stroke-width="0.8" fill="#FFFFFF"></path>
+                                        <circle id="Eye" fill="#0D0D0D" cx="9.75" cy="9.75" r="1.21875"></circle>
+                                        <circle id="Eye" fill="#0D0D0D" cx="17.0625" cy="9.75" r="1.21875"></circle>
+                                        <ellipse id="Nose" fill="#000000" cx="13.4395912" cy="13.1015625" rx="1.28030303" ry="1.21875"></ellipse>
+                                        <use id="Ear-2" stroke="#282828" mask="url(#mask-8)" stroke-width="1.6" fill="#FFFFFF" transform="translate(23.178440, 7.312500) scale(-1, 1) translate(-23.178440, -7.312500) " xlink:href="#path-7"></use>
+                                        <use id="Ear-1" stroke="#282828" mask="url(#mask-10)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-9"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

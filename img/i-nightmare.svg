@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="28px" viewBox="0 0 29 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.6787511,18.9820764 C25.4798031,24.1091732 20.3690705,27.702509 14.4153226,27.702509 C6.45395976,27.702509 0,21.2772335 0,13.3512545 C0,7.44666017 3.58179352,2.37492046 8.70028113,0.172045467 C7.95879173,1.9009121 7.5483871,3.80417518 7.5483871,5.80286738 C7.5483871,13.7288464 14.0023469,20.1541219 21.9637097,20.1541219 C23.9941184,20.1541219 25.926483,19.7362108 27.6787511,18.9820764 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27.6787511" height="27.5304635" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-165.000000, -837.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(0.000000, 398.000000)">
+                    <g id="Group-11" transform="translate(72.000000, 289.000000)">
+                        <g id="Icons-set">
+                            <g id="Group-22" transform="translate(83.000000, 0.000000)">
+                                <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+                                <g id="Group-8" transform="translate(10.000000, 10.000000)" fill="#FFFFFF" stroke="#282828">
+                                    <g id="Group-7">
+                                        <g id="Body" transform="translate(0.774194, 0.258065)">
+                                            <use id="Cresent" mask="url(#mask-2)" stroke-width="1.6" xlink:href="#path-1"></use>
+                                            <polygon id="Star" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" points="18.8709677 10.5622376 16.6875528 12.3403595 16.7164075 9.52465609 13.9648789 8.92623438 16.184275 7.19323154 14.93659 4.66889003 17.675277 5.32357421 18.8709677 2.77419355 20.0666585 5.32357421 22.8053455 4.66889003 21.5576604 7.19323154 23.7770566 8.92623438 21.025528 9.52465609 21.0543827 12.3403595"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

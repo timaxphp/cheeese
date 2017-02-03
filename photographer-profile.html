@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheeese</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/preloader.js"></script>
+</head>
+<body>
+
+    <div id="preloader">
+        <svg>
+            <defs>
+                <clipPath id="cheeese_mask">
+                    <path d="M240.8,129c0,11.4-4.7,17.7-9.2,17.7c-3.5,0-9-4.5-9-12.8c0-7.3,6.1-13.5,14-19.2C239.1,119.8,240.8,124.6,240.8,129z M280,106c-0.2,0-0.5,0.2-0.6,0.5c-0.6,6-5.2,11.4-9.8,11.4c-4.5,0-10.9-2.8-11.4-17c8.8-5.7,15.9-11.6,15.9-18.3c0-7.5-7.5-11.7-11.3-11.7c-8.1,0-14.6,13-14.6,27.6c0,0.3,0,0.5,0,0.7c-1.8,1-3.6,2.1-5.4,3.2c-3.1-6-6.6-12-9.7-17.7c4.9-11.8,8.5-23.2,8.5-29.6c0-10.6-5.6-19.6-14.4-19.6c-6.4,0-14.4,9.4-14.4,26.8c0,10,5.3,20.4,11.2,30.6c-6.8,14.1-14.1,26.4-16.5,26.4c-0.8,0-3.5-0.9-5.6-6c5.1-10.6,9-22.9,9-30.6c0-9.2-6.5-13.4-10.4-13.4c-3.7,0-10.2,12.4-10.2,27.7c0,8.9,2.1,15.5,4.2,19.7c-3.7,6.5-7.3,11.3-9.4,11.3c-1.9,0-5.2-2.1-7.9-7.6c6.9-15.7,11.8-35,11.8-48.4c0-10.2-6.7-15.6-11.7-15.6c-6.8,0-15.6,15.2-15.6,37.6c0,14.9,3.3,24.8,6.4,30.5c-4.6,8.9-9,14.8-11.3,14.8c-3.2,0-10.7-3-13.6-24.7c9.8-14,18.9-34.1,18.9-57.2c0-9.2-7.5-15.5-15-15.5c-6.2,0-18.7,24.4-18.7,52.5c0,10.6,1.1,19,2.6,25.3c-4.7,5.5-8.6,8.7-10.1,8.7c-3,0-3.6-5.8-3.6-22.2c0-21,7.5-38.3,7.5-42c0-0.8-1.2-1.7-3.7-1.7c-3.3,0-8,1-8.8,2.1c-14.2,20.1-16.7,41.8-17.6,41.8c-0.5,0-1.5-6.3-2.2-14.9C100.7,67,107,40.3,107,26.6c0-4-0.4-9.4-1.2-10.9c-1.7-3.1-5.2-5.4-10.2-5.4c-4.7,0-14.7,26.9-14.7,60.8c0,12,0.7,21.1,1.6,27.9c-7.7,20.9-15.9,37.6-19.9,37.6c-9.8,0-20.8-23.2-20.8-47.5c0-36.2,9.7-57,15.4-57c3.6,0,6,6.6,6,14.4c0,18.4-6.8,27.2-6.8,28.2s1.1,1.5,2,1.5c4.6,0,16.8-7.1,16.8-28.1c0-8.2-1.6-13.3-3.3-15.6c-2.5-3.4-10.6-11.6-22.6-11.6c-6.3,0-20.9,18-20.9,68.2c0,21,7.7,35.7,9.7,39.3c4.4,7.8,16,16.6,25.2,16.6c6,0,14.2-14.3,21.9-33.3c0.6,1.8,1,2.7,1.3,3c1,1,7.6,3.4,9.5,3.4c3.2,0,6.6-24.2,14.4-38.9c-1.4,6-4.4,14.8-4.4,28.4c0,13.7,1.1,17.5,3.1,19.6c2,2.1,8.9,7.9,12.1,7.9c2.2,0,6.7-3,11.9-8.2c2,5.7,4.1,8.9,4.8,9.9c2.3,3.5,10.3,10.3,17.5,10.3c5.5,0,11.6-6.7,17-16.5c2.2,1.8,7.3,3.7,12.3,3.7c3.7,0,8.5-5.4,13-12.8c0.2,0.2,0.4,0.4,0.6,0.5c1.9,1.3,5.8,2.8,9.3,2.8c4.2,0,12.3-12.2,19.5-26.8c2.2,3.6,4.3,7.2,6.3,10.6c-9.2,6.6-16.7,14.6-16.7,25.1c0,13.2,9.5,18.3,14.6,18.3c9.6,0,20.4-8.6,20.4-23.7c0-5.9-2.4-12.8-5.8-19.8c1.1-0.7,2.2-1.3,3.3-2c3.2,12.1,13.6,15.3,20.2,15.3c7.9,0,14.1-5,14.1-10.7C283.5,107.9,280.8,106,280,106L280,106z M99.4,24.6c0.5,0,1.1,0.2,1.1,2.3c0,10.2-3.7,27.1-8.8,44.5C91.6,55,96.1,24.6,99.4,24.6z M142.1,94.7c0-21.9,8.6-40.3,11.3-40.3c1.7,0,2.3,1,2.3,3.6c0,17.1-6.2,33.2-13.4,45.7C142.1,100.9,142.1,97.9,142.1,94.7L142.1,94.7z M172.4,94c0-13.8,5.3-26.6,7.7-26.6c1.3,0,2.7,1.2,2.7,4.6c0,12.4-3.8,26.8-8.7,39.2C173.1,106.5,172.4,100.9,172.4,94z M199.5,95.3c0-8.2,3.3-15.5,4.7-15.5c1,0,2.3,1.1,2.3,3.7c0,5.3-2.7,13.9-6.3,22.1C199.7,102.8,199.5,99.4,199.5,95.3z M225.3,63c0-12.5,2.4-17.1,6.4-17.1c2.6,0,5.7,4.2,5.7,9.2s-3,14.2-7,24.1C227.4,73.1,225.3,67.5,225.3,63L225.3,63z M265.7,77.4c1.7,0,2.2,2.5,2.2,3.9c0,4.1-3.8,7.7-9.3,11.5C260,82.6,264.3,77.4,265.7,77.4L265.7,77.4z"/>
+                </clipPath>
+            </defs>
+            <path clip-path="url(#cheeese_mask)" class="st0" d="M56.5,77.4c0,0,27.5-31.5,0.7-50.1C38,18,17.2,117.8,59.7,141c6.3,3.5,12.4-8.4,19-27.4"/>
+            <path clip-path="url(#cheeese_mask)" class="st1" d="M79.7,115.8C83,108.1,93.1,80,95.8,70c0,0,6.4-25.3,7.9-39.9c0,0,0.3-2.5,0.1-5"/>
+            <path clip-path="url(#cheeese_mask)" class="st2" d="M105.4,29.3c0,0-4.9-25.8-12.3-6.7c-4.3,11.2-5.5,25.9-6.3,31c-1.1,6.9-2.8,49.3,6.5,68.3"/>
+            <path clip-path="url(#cheeese_mask)" class="st2" d="M91.8,115.8l8.7-28.6c0,0,9.9-30.4,18.5-21.4c0,0-14.4,52.6-2.9,63.4c0,0,5.2,9.9,12.2-1.8"/>
+            <path clip-path="url(#cheeese_mask)" class="st1" d="M124.6,129.6c3.3,0,37.1-35,33.9-75.2"/>
+            <path clip-path="url(#cheeese_mask)" class="st3" d="M164.4,60.6c0,0-8.2-21.5-17.7-10c-10.1,12.4-22.1,68.2,4.5,91.1c0,0,9,8.4,15.9-8"/>
+            <path clip-path="url(#cheeese_mask)" class="st1" d="M164.7,136.6c0,0,19.5-27,20.8-64.6c0,0,0.1-6.9-4.2-10.8"/>
+            <path clip-path="url(#cheeese_mask)" class="st2" d="M191.2,68c0,0-13.7-18-21.3,6.6c-7.9,25.6,3.1,62.3,16.8,57.6l7.2-9.3"/>
+            <path clip-path="url(#cheeese_mask)" class="st4" d="M192.7,124.6c0,0,17-23.8,15.8-45.5"/>
+            <path clip-path="url(#cheeese_mask)" class="st5" d="M211.2,81.9c0,0-3.5-4-6.7-7.8c-1.6-1.9-4,0-5.8,4.3c0,0-11.8,28.2,5,43.4c0,0,15.8-8.2,18.4-20"/>
+            <path clip-path="url(#cheeese_mask)" class="st4" d="M221.8,102.9c0,0,20.6-38.4,17.7-50.9"/>
+            <path clip-path="url(#cheeese_mask)" class="st3" d="M244.2,53.7c0,0-7.2-19.6-18.9-12c-5.8,3.8-14.6,21.7,12.1,61.2"/>
+            <path clip-path="url(#cheeese_mask)" class="st6" d="M235.5,101c8.7,14.6,10.2,22,10.2,22s4.2,16.8-9.8,26.8c-12.1,8.6-19-18.2-15-24.8l20-20.2"/>
+            <path clip-path="url(#cheeese_mask)" class="st7" d="M244.2,105.5c0,0,24.3-12.7,26.9-21.1"/>
+            <path clip-path="url(#cheeese_mask)" class="st8" d="M268.8,89.9c0,0,7.2-10.8,0.9-15c-6-3.9-11,3.2-12,5.4s-11.3,23.4,1.8,35.5c11.8,10.9,24.1-8.1,24.1-8.1"/>
+        </svg>
+    </div>
+
+    <header class="header header-onlyNav">
+        <nav class="header__nav header__nav-fixed header__nav-profile hidden-md-down">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="header__link header__link__search">
+                            <span>search</span>
+                            <input type="text" class="header__link__search__input">
+                        </div>
+                        <a href="#" class="header__link header__link-hideOnSearch">about</a>
+                        <a href="#" class="header__link header__link-hideOnSearch">stories</a>
+                        <a href="#" class="header__link header__link-hideOnSearch">faq</a>
+                    </div>
+                    <div class="col-md-4 text-md-center">
+                        <img src="img/logo.svg" alt="" class="header__nav__logo">
+                    </div>
+                    <div class="col-md-10 text-md-right">
+                        <a href="#" class="header__link header__link-orders">
+                            <span>3</span>
+                            Orders
+                        </a>
+                        <a href="#" class="header__link header__link-messageIcon">
+                            <i class="header__link__messages"></i>
+                        </a>
+                        <div class="header__link header__link-profile">
+                            <img src="img/profile.png" alt="" class="header__link__img">
+                            Martin van Lindberg
+
+                            <div class="profile__menu">
+                                <a href="#" class="profile__menu__item profile__menu__item-bb">My profile</a>
+                                <a href="#" class="profile__menu__item">Settings</a>
+                                <a href="#" class="profile__menu__item">Help</a>
+                                <a href="#" class="profile__menu__item">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <nav class="row header__nav hidden-lg-up">
+                <img src="img/logo.svg" alt="" class="header__moblogo">
+                <div class="col-xs-24 text-xs-right">
+                    <a href="#" class="header__iconmenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="header__mobmenu">
+            <div class="header__mobmenu__body">
+                <a href="#" class="header__link">My Profile</a>
+                <a href="#" class="header__link header__link-orders">Orders <span>3</span></a>
+                <a href="#" class="header__link">Chats</a>
+                <a href="#" class="header__link">About</a>
+                <a href="#" class="header__link">Stories</a>
+                <a href="#" class="header__link">Faq</a>
+                <a href="#" class="header__link header__link-nb">Log out</a>
+                <a href="#" class="button">Become a photographer</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="photProfile">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-24 col-lg-7">
+                    <div class="photProfile__sidebar">
+                        <div class="photProfile__info">
+                            <img src="img/profilebig2.png" alt="" class="photProfile__img">
+                            <p class="photProfile__price"><span>$120</span> per hour</p>
+                            <h3 class="photProfile__name">Stephen M.</h3>
+                            <p class="photProfile__loc">
+                                <i class="icon icon-loc"></i>
+                                helsinki, finland
+                            </p>
+                            <div class="photProfile__rating">
+                                <div class="photProfile__rating__item photProfile__rating__item-active"></div>
+                                <div class="photProfile__rating__item photProfile__rating__item-active"></div>
+                                <div class="photProfile__rating__item photProfile__rating__item-active"></div>
+                                <div class="photProfile__rating__item photProfile__rating__item-active"></div>
+                                <div class="photProfile__rating__item"></div>
+                            </div>
+                            <div class="photProfile__tags">
+                                <p class="photProfile__tags__item">lifestyle</p>
+                                <p class="photProfile__tags__item">wedding</p>
+                                <p class="photProfile__tags__item">love</p>
+                            </div>
+                            <a href="#" class="button button-grey">
+                                <i class="icon icon-edit"></i>
+                                Edit profile Info
+                            </a>
+                        </div>
+                        <div class="photProfile__about">
+                            <div class="clearfix">
+                                <div class="col-xs-12">
+                                    <h4 class="photProfile__header">about</h4>
+                                </div>
+                                <div class="col-xs-12 text-xs-right hidden-lg-up">
+                                    <a href="#" class="photProfile__more" data-more='1'>More <i class="icon icon-arrowdown"></i></a>
+                                </div>
+                            </div>
+                            <p id='more1' class="photProfile__text photProfile__moreinfo">Imagine no selfie-sticks or tripods on your photos! If you travel in a company of two or more it is the best way to be together in the shot.</p>
+                            <hr>
+                            <div class="clearfix">
+                                <div class="col-xs-12">
+                                    <h4 class="photProfile__header">facilities</h4>
+                                </div>
+                                <div class="col-xs-12 text-xs-right hidden-lg-up">
+                                    <a href="#" class="photProfile__more" data-more='2'>More <i class="icon icon-arrowdown"></i></a>
+                                </div>
+                            </div>
+                            <div id='more2' class="photProfile__cat photProfile__moreinfo clearfix">
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-car"></i>
+                                    <p class="photProfile__cat__desc">Car</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-nightmare"></i>
+                                    <p class="photProfile__cat__desc">Night time</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-nature"></i>
+                                    <p class="photProfile__cat__desc">Nature</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-animals"></i>
+                                    <p class="photProfile__cat__desc">Animals friendly</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-makeup"></i>
+                                    <p class="photProfile__cat__desc">Make up</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-lgbt"></i>
+                                    <p class="photProfile__cat__desc">LGBT friendly</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-tour"></i>
+                                    <p class="photProfile__cat__desc">Guide tour</p>
+                                </div>
+                                <div class="photProfile__cat__item">
+                                    <i class="icon icon-allfiles"></i>
+                                    <p class="photProfile__cat__desc">All files</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-24 col-lg-17">
+                    <div class="photProfile__content">
+                        <div class="row photProfile__controls">
+                            <div class="col-md-12 col-lg-9 col-xl-12">
+                                <button class="button button-grey photProfile__selectAll">select all</button>
+                                <button class="button button-grey photProfile__diselectAll">disselect all</button>
+                                <p class="photProfile__selectedItems"><span>0</span> images selected</p>
+                            </div>
+                            <div class="col-md-12 text-md-right col-lg-15 col-xl-12">
+                                <button class="button button-grey photProfile__edit">
+                                    <i class="icon icon-edit"></i>
+                                    edit portfolio
+                                </button>
+                                <button class="button button-green photProfile__upload">upload images</button>
+                                <button class="button button-red photProfile__delete">Delete images</button>
+                                <button class="button button-grey photProfile__exit">Exit</button>
+                            </div>
+                        </div>
+                        <div class="picturesPhot">
+                            <div class="picturesPhot__item">
+                                <img src="img/pic12.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic1" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic1"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic13.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic2" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic2"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic14.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic3" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic3"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic15.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic4" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic4"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic16.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic5" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic5"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic17.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic6" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic6"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic18.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic7" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic7"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic19.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic8" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic8"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                            <div class="picturesPhot__item">
+                                <img src="img/pic20.png" alt="" class="picturesPhot__item__img">
+                                <div class="picturesPhot__controls">
+                                    <div class="picturesPhot__check">
+                                        <input id="pic9" type="checkbox" class="picturesPhot__check__input">
+                                        <label for="pic9"></label>
+                                    </div>
+                                    <button class="picturesPhot__item__download"></button>
+                                    <button class="picturesPhot__item__delete"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="picturesPhot__load button button-black">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/logo.svg" alt="" class="footer__logo">
+                    <p class="footer__text">
+                        Info@cheeese.io
+                        <br>
+                        +7 896 678 89 76
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer__header">Company</h4>
+                    <a href='#' class="footer__link">About Us</a>
+                    <a href='#' class="footer__link">Terms & Conditions</a>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer__header">Support</h4>
+                    <a href='#' class="footer__link">FAQ</a>
+                    <a href='#' class="footer__link">Contact Us</a>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer__header">Support</h4>
+                    <a href='#' class="footer__link">FAQ</a>
+                    <a href='#' class="footer__link">Contact Us</a>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <div class="footer__socials text-md-left">
+                        <h4 class="footer__header">Follow us</h4>
+                        <a href="#" class="footer__social footer__social-fb"></a>
+                        <a href="#" class="footer__social footer__social-inst"></a>
+                        <a href="#" class="footer__social footer__social-rss"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer__copy">
+                <div class="col-md-12">
+                    <p class="footer__text">© 2016 Cheeese. All rights reserved. </p>
+                </div>
+                <div class="col-md-12 text-md-right">
+                    <a href="#" class="footer__pay">
+                        <img src="img/pay.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="photProfile__removePopup">
+        <div class="photProfile__removePopup__body">
+            <h3 class="photProfile__removePopup__header">Deleting images</h3>
+            <p class="photProfile__removePopup__text">Are you sure you want to delete following images: Image 1, Image 2, Image 3</p>
+            <button class="button button-red">Delete images</button>
+        </div>
+    </section>
+
+    <section class="photProfile__uploadPopup">
+        <div class="photProfile__uploadPopup__body">
+            <form id='dropzoneOne' action="/file-upload" class="dropzone">
+                <input name="file" type="file" multiple />
+                <div class="dz-message needsclick">
+                    <h4>Drop your images here</h4>
+                    <p>You can upload up to 20 images to your portfolio.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+<script src="js/draggabilly.min.js"></script>
+<script src="js/packery.min.js"></script>
+<script src="js/dropzone.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

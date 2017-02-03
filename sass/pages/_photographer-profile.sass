@@ -1,0 +1,309 @@
+.photProfile
+    padding-top: 80px
+    background: rgba(#ededed, .28)
+    overflow: hidden
+    &__info
+        background: #fff
+        padding: 60px 60px 60px 0
+        position: relative
+        text-align: center
+        border-right: 1px solid #f2f2f2
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,.03)
+        z-index: 1
+        position: relative
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            z-index: 1
+            left: -1000%
+            top: 0
+            width: 1000%
+            height: 100%
+            background: #fff
+        .button
+            display: block
+            width: 100%
+            margin-top: 15px
+    &__price
+        text-align: right
+        text-transform: uppercase
+        font-size: 14px
+        font-family: 'SFUIText-Bold'
+        position: absolute
+        right: 60px
+        top: 60px
+        margin: 0
+        max-width: 80px
+        max-height: 41px
+        overflow: hidden
+        span
+            font-family: 'AbsaraSans-Medium'
+            display: block
+            font-size: 26px
+            line-height: 26px
+            margin-bottom: -6px
+    &__img
+        display: block
+        width: 98px
+        height: 98px
+        border-radius: 100%
+        margin: 0 auto
+    &__name
+        font-size: 23px
+        font-family: 'SFUIText-Semibold'
+        margin: 4px 0 8px 0
+    &__loc
+        text-transform: uppercase
+        font-family: 'SFUIText-Semibold'
+        font-size: 15px
+        letter-spacing: 1px
+        margin: 0
+    &__rating
+        margin: 5px 0 15px 0
+        &__item
+            display: inline-block
+            width: 16px
+            height: 16px
+            background: transparent url('../img/i-star.svg') center no-repeat
+            &-active
+                background: transparent url('../img/i-starfill.svg') center no-repeat
+    &__tags
+        &__item
+            display: inline-block
+            margin: 0 0 5px 0
+            background: #000
+            color: #fff
+            font-size: 10px
+            font-family: 'SFUIText-Semibold'
+            letter-spacing: 2px
+            padding: 9px 14px
+            border-radius: 100px
+            text-transform: uppercase
+    &__about
+        background: #FDFDFD
+        position: relative
+        border-right: 1px solid #f2f2f2
+        padding: 45px 60px 45px 0
+        &::before
+            content: ''
+            background: #FDFDFD
+            display: block
+            position: absolute
+            z-index: 1
+            left: -1000%
+            top: 0
+            width: 1000%
+            height: 100%
+            box-shadow: inset 12px 2px 5px rgba(0,0,0,.03)
+    &__header
+        text-transform: uppercase
+        font-size: 13px
+        font-family: 'SFUIText-Bold'
+        letter-spacing: 1px
+        margin-bottom: 15px
+    &__text
+        font-size: 16px
+        line-height: 27px
+        opacity: .7
+    hr
+        margin: 30px 0 40px 0
+        border-top: solid 1px rgba(#D6D6D6, .3)
+    &__cat
+        &__item
+            float: left
+            width: 25%
+            text-align: center
+        &__desc
+            margin: 0
+            font-size: 13px
+            font-family: 'SFUIText-Medium'
+    &__content
+        padding: 0 15px 0 35px
+        overflow: hidden
+    &__controls
+        padding-right: 30px
+        padding-top: 10px
+        padding-bottom: 10px
+        .button
+            padding: 16px 30px
+    &__selectedItems
+        display: inline-block
+        margin: 0
+        vertical-align: middle
+        color: $lightblue
+        margin-left: 20px
+    //Buttons states
+    &__selectAll, &__diselectAll, &__upload, &__delete, &__exit, &__selectedItems
+        display: none
+    &-editOn
+        .photProfile__selectAll, .photProfile__upload
+            display: inline-block
+        .photProfile__edit
+            display: none
+        .picturesPhot__item__img
+            -webkit-filter: blur(3px)
+            filter: blur(3px)
+        .picturesPhot__controls
+            display: block
+    &-selectedItems
+        .photProfile__upload
+            display: none
+        .photProfile__delete
+            display: inline-block
+        .photProfile__exit
+            display: inline-block
+        .photProfile__selectedItems
+            display: inline-block
+    &-selectedAllItems
+        .photProfile__selectAll
+            display: none
+        .photProfile__diselectAll
+            display: inline-block
+    // Remove Popup
+    &__removePopup
+        position: fixed
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background: rgba(#fff, .90)
+        z-index: 9999
+        display: none
+        &-active
+            display: block
+        &__body
+            text-align: center
+            width: 100%
+            max-width: 332px
+            padding: 0 10px
+            position: absolute
+            left: 50%
+            top: 50%
+            transform: translate(-50%, -50%)
+        &__header
+            text-transform: uppercase
+            font-family: 'SFUIText-Bold'
+            font-size: 16px
+            margin-bottom: 20px
+        &__text
+            margin-bottom: 30px
+    &__uploadPopup
+        position: fixed
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background: rgba(#fff, .90)
+        z-index: 9999
+        display: none
+        &-active
+            display: block
+        .dropzone
+            position: absolute
+            left: 50%
+            top: 50%
+            transform: translate(-50%, -50%)
+            display: block
+            width: 100%
+            max-width: 540px
+            height: 630px
+            background: #fff
+            margin: 0 auto
+            border: dashed 1px rgba(#000, .2)
+            input
+                display: none
+            .dz-message
+                position: absolute
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                h4
+                    font-size: 16px
+                    font-family: 'SFUIText-Bold'
+                    text-transform: uppercase
+                    margin-bottom: 20px
+    &__more
+        text-transform: uppercase
+        color: #000
+        font-size: 12px
+        line-height: 10px
+        font-family: 'SFUIText-Bold'
+        letter-spacing: 1px
+        display: inline-block
+        position: relative
+        top: -5px
+        .icon-arrowdown
+            position: relative
+            top: -2px
+            margin-right: 2px
+        &-active
+            .icon-arrowdown
+                top: 0
+                transform: rotate(-180deg)
+        &:hover, &:focus, &:active
+            text-decoration: none
+            color: #000
+
+.picturesPhot
+    &__item
+        width: calc( 50% - 25px )
+        z-index: 1000
+        overflow: hidden
+        &__img
+            width: 100%
+        &.is-dragging
+            z-index: 9999
+        &__download, &__delete
+            width: 38px
+            height: 38px
+            display: block
+            margin: 0 0 20px auto
+            border: none
+            background-color: #000
+            background-position: center
+            background-repeat: no-repeat
+            border-radius: 100%
+            cursor: pointer
+        &__download
+            background-image: url('../img/i-download.svg')
+            background-position: 8.5px 8px
+        &__delete
+            background-image: url('../img/i-trash.svg')
+            background-position: 7px 7px
+    &__check
+        &__input
+            display: none
+            &:checked + label
+                border-color: $green
+                background: $green url('../img/i-checked.svg') center no-repeat
+        label
+            display: block
+            width: 38px
+            height: 38px
+            margin: 0 0 20px auto
+            border: solid 1px #fff
+            border-radius: 100%
+            cursor: pointer
+    .packery-drop-placeholder
+        border: dashed 1px rgba(#000, .2)
+        background: #fff
+        z-index: 100
+        transition: transform 0.2s
+    &__controls
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        padding: 20px
+        background: rgba(#000, .3)
+        display: none
+    &__load
+        background: transparent
+        display: block
+        text-align: center
+        margin: 60px auto 0 auto
+        max-width: 260px
+        &:hover, &:focus, &:active
+            background: transparent

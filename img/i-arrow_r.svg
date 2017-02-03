@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Index" transform="translate(-756.000000, -880.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Banner-2" transform="translate(0.000000, 680.000000)">
+                <g id="Arrow-2-Pressed" transform="translate(742.000000, 183.000000)">
+                    <g id="Arrow-icon" transform="translate(14.000000, 18.000000)">
+                        <path d="M19.1015168,0 L13.4016286,5.78040692 C13.4016286,5.78040692 12.4979642,6.50164872 13.4016286,7.46884681 C14.3052931,8.4360449 19.1015168,13.0429626 19.1015168,13.0429626" id="Forward-Copy" transform="translate(16.050758, 6.521481) scale(1, -1) rotate(180.000000) translate(-16.050758, -6.521481) "></path>
+                        <path d="M0.685273293,6.5 L18.5636195,6.5" id="Path-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

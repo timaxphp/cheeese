@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="35px" viewBox="0 0 38 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="17.7272727 1.18181818 20.0909091 1.18181818 20.0909091 2.53807023 20.0909091 4.02767857 17.7272727 4.02767857"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="2.36363636" height="2.84586039" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="15.3636364" y="14.1818182" width="7.09090909" height="2.36363636"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.09090909" height="2.36363636" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="21.2727273" y="33.0909091" width="16.5454545" height="0.94545456" rx="0.47272728"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.5454545" height="1" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="17.5396521 19.5 20.1605152 19.5 21.0341363 26.5909091 16.6660309 26.5909091"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4.36810533" height="7.09090909" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="13" y="24.2272727" width="11.8181818" height="2.36363636"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="11.8181818" height="2.36363636" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="33.0909091" width="18.9090909" height="0.94545456" rx="0.47272728"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18.9090909" height="1" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="38.-Photographer's-profile-Edit" transform="translate(-244.000000, -922.000000)">
+            <g id="Group-31" transform="translate(0.000000, 140.000000)">
+                <g id="Group-20" transform="translate(0.000000, 398.000000)">
+                    <g id="Group-11" transform="translate(72.000000, 289.000000)">
+                        <g id="Icons-set">
+                            <g id="Group-25" transform="translate(167.000000, 88.000000)">
+                                <rect id="Rectangle-2" x="0" y="0" width="48" height="48"></rect>
+                                <g id="Guide-Tour" transform="translate(5.000000, 7.000000)" stroke="#282828">
+                                    <g id="Tower">
+                                        <path d="M14.1818182,31.9090909 C14.2659386,31.7753598 15.7747308,28.3636364 18.8802049,28.3636364 C21.9629177,28.3636364 23.4362387,31.5426546 23.5785917,31.7633891" id="Path-" stroke-width="0.8"></path>
+                                        <path d="M18.9090909,2.37155033 L18.9090909,0.474310067" id="Line" stroke-width="0.8" stroke-linecap="square"></path>
+                                        <path d="M11.0091259,33.5925436 C11.0453673,33.524418 11.0838279,33.4518476 11.1243434,33.375109 C12.232061,31.2770302 14.875792,26.0631904 15.6945425,23.3873376 C17.5025908,17.4782467 18.1999995,3.54545455 18.1999995,3.54545455 L19.6181823,3.54545455 C19.6181823,3.54545455 20.2146633,17.4782467 22.0227116,23.3873376 C23.006121,26.601331 25.7585849,31.755938 26.7909648,33.5983719" id="Path-" stroke-width="0.8"></path>
+                                        <use id="Rectangle-" mask="url(#mask-2)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                        <use id="Rectangle-" mask="url(#mask-4)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                        <use id="Rectangle" mask="url(#mask-6)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-5"></use>
+                                        <ellipse id="Oval-" stroke-width="0.629999973" fill="#FFFFFF" transform="translate(28.738169, 6.283623) rotate(10.000000) translate(-28.738169, -6.283623) " cx="28.7381686" cy="6.28362311" rx="2.36363636" ry="2.36363636"></ellipse>
+                                        <use id="Rectangle" mask="url(#mask-8)" stroke-width="1.6" xlink:href="#path-7"></use>
+                                        <use id="Rectangle-28-Copy" mask="url(#mask-10)" stroke-width="1.6" fill="#FFFFFF" xlink:href="#path-9"></use>
+                                        <use id="Rectangle-5" mask="url(#mask-12)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-11"></use>
+                                        <path d="M13.2962047,33.6803178 L17.1363636,26" id="Path-20" stroke-width="0.8"></path>
+                                        <path d="M20.6818182,33.7288485 L24.5462425,26" id="Path-20" stroke-width="0.8" transform="translate(22.614030, 29.864424) scale(-1, 1) translate(-22.614030, -29.864424) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

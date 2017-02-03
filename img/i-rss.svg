@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>RSS</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Index" transform="translate(-1284.000000, -3860.000000)" fill="#FFFFFF">
+            <g id="Footer" transform="translate(0.000000, 3738.000000)">
+                <g id="Group-30" transform="translate(1152.000000, 60.000000)">
+                    <path d="M135.008499,72.5042493 C135.008499,71.6713881 134.328612,70.9915014 133.495751,70.9915014 C132.679887,70.9915014 132,71.6883853 132,72.5042493 C132,73.3201133 132.679887,74 133.495751,74 C134.311615,74 135.008499,73.3201133 135.008499,72.5042493 L135.008499,72.5042493 Z M139.92068,74 C139.92068,69.631728 136.368272,66.0793201 132,66.0793201 L132,68.3739377 C135.093484,68.3739377 137.609065,70.9065156 137.609065,74 L139.92068,74 Z M144,74 C144,67.388102 138.611898,62.0169972 132,62 L132,64.2946176 C137.354108,64.3116147 141.671388,68.6458924 141.688385,74 L144,74 Z" id="RSS"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

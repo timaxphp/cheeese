@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="10px" viewBox="0 0 13 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Email icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="13" height="9.28131674" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="9.28131674" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M1.51040535,1.45293718 C0.728207039,0.67516264 0.991435167,0.0446517943 2.08800828,0.0446517943 L10.8611606,0.0446517943 C11.9623602,0.0446517943 12.2200651,0.676287275 11.439286,1.45293718 L7.89153441,4.98192622 C7.10962467,5.75970076 5.84053354,5.75857613 5.05946627,4.98192622 L1.51040535,1.45293718 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.935863" height="5.5903709" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11.-Log-in" transform="translate(-564.000000, -349.000000)" stroke-width="2" stroke="#4C4C4C" fill="#FFFFFF">
+            <g id="Group-6" transform="translate(552.000000, 319.000000)">
+                <g id="1.-E-mail">
+                    <g id="Group">
+                        <g id="Email-icon" transform="translate(12.000000, 30.531250)">
+                            <use id="Rectangle-567" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                            <use id="Rectangle-567" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
